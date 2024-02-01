@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+aside {
+    height: 100vh;
+    width: 15vw;
+    background-color: gray;
+}
+
+#form {
+    display: flex;
+    height: 100vh;
+    width: 85vw;
+}
+
+.form-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+    background-color: pink;
+    height: 60vh;
+    width: 25vw;
+    border-radius: 50px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+}
+
+#checkbox {
+    width: 20%;
+    height: 20%;
+}
