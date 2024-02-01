@@ -35,17 +35,17 @@
         </aside>
         <section id="form">
             <div class="form-wrapper">
-                <form>
+                <form action="dodaj_klienta.php" method="post">
                     <h2 id="form-text">SELL FORM</h2>
                     <div class="input">
-                        <input type="text" placeholder="Przedmiot">
+                        <input type="text" name="przedmiot" placeholder="Przedmiot">
                     </div>
                     <div class="input">
-                        <input type="text" placeholder="Cena">
+                        <input type="text" name="cena" placeholder="Cena">
                     </div>
                     <label>Sprzedane</label>
                     <div class="input" id="input-checkbox">
-                        <input type="checkbox" placeholder="Sprzedane" id="checkbox">
+                        <input type="checkbox" name="sprzedane" placeholder="Sprzedane" id="checkbox">
                     </div>
                     <div id="submit">
                         <input type="submit" value="Dodaj">
